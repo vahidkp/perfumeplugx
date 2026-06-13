@@ -1,7 +1,7 @@
 import { Truck, ShieldCheck, Headphones, BadgePercent } from 'lucide-react'
 
 const services = [
-  { icon: Truck, title: 'Free Delivery', subtitle: 'On orders over AED 200' },
+  { icon: Truck, title: 'Free Delivery', subtitle: 'On orders over NZD 200' },
   { icon: BadgePercent, title: 'Free Shipping', subtitle: 'On all prepaid orders' },
   { icon: ShieldCheck, title: 'Secure Payments', subtitle: '100% protected checkout' },
   { icon: Headphones, title: 'Customer Service', subtitle: 'Reach us on WhatsApp' },

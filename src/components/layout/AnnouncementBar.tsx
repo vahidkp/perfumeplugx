@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { ChevronLeft, ChevronRight, MapPin } from 'lucide-react'
 
 const messages = [
-  'Free delivery in the UAE for orders over AED 200',
+  'Free delivery across New Zealand for orders over NZD 200',
   'New Launch — Premium Oud Collection now live',
   'Use code WELCOME for 5% off your first order',
   'Authentically crafted Arabian fragrances',

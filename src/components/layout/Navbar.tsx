@@ -61,7 +61,7 @@ export default function Navbar() {
                 )}
               </button>
               <span className="hidden sm:flex items-center gap-1.5 font-body text-[11px] tracking-widest uppercase text-cream/70">
-                <Globe size={13} strokeWidth={1.5} /> AED
+                <Globe size={13} strokeWidth={1.5} /> NZD
               </span>
             </div>
 
@@ -74,7 +74,7 @@ export default function Navbar() {
 
             <div className="flex items-center gap-5">
               <span className="hidden md:inline font-body text-[11px] tracking-widest uppercase text-cream/70">
-                Free UAE Delivery
+                Free NZ Delivery
               </span>
               <button
                 aria-label="Search"

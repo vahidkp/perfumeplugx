@@ -5,7 +5,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react'
 
 const messages = [
   'Eid Al Adha sale up to 30% off — ends soon',
-  'Free delivery in the UAE for orders over AED 200',
+  'Free delivery across New Zealand for orders over NZD 200',
   'New launch — discover the Lynked Collection',
 ]
 

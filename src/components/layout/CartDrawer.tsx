@@ -161,7 +161,7 @@ export default function CartDrawer() {
                         </div>
 
                         <p className="font-body text-sm font-medium text-ink">
-                          {formatPrice(item.price * item.quantity, 'AED')}
+                          {formatPrice(item.price * item.quantity, 'NZD')}
                         </p>
                       </div>
                     </div>
@@ -187,14 +187,14 @@ export default function CartDrawer() {
                     Subtotal
                   </span>
                   <span className="font-body text-lg font-medium text-ink">
-                    {formatPrice(cartTotal, 'AED')}
+                    {formatPrice(cartTotal, 'NZD')}
                   </span>
                 </div>
 
                 {cartTotal < 200 && (
                   <div>
                     <p className="font-body text-xs text-ink-mute mb-2">
-                      Add {formatPrice(200 - cartTotal, 'AED')} more for free
+                      Add {formatPrice(200 - cartTotal, 'NZD')} more for free
                       delivery
                     </p>
                     <div className="h-1 bg-cream-warm rounded-full overflow-hidden">

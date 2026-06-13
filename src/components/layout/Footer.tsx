@@ -63,7 +63,7 @@ export default function Footer() {
                 PERFUMEPLUGX
               </span>
               <p className="font-body text-[11px] tracking-widest uppercase text-cream/60 mt-2">
-                Perfumes — UAE
+                Perfumes — Auckland, NZ
               </p>
             </Link>
             <p className="font-body text-[13px] text-cream/70 leading-relaxed mt-5">
@@ -110,7 +110,7 @@ export default function Footer() {
       <div className="border-t border-forest-line">
         <div className="container-ar py-5 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="font-body text-[11px] text-cream/55 tracking-wide">
-            © {new Date().getFullYear()} PERFUMEPLUGX — UAE. All
+            © {new Date().getFullYear()} PERFUMEPLUGX — Auckland, New Zealand. All
             rights reserved.
           </p>
           <div className="flex items-center gap-4">

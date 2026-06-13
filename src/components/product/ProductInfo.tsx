@@ -64,7 +64,7 @@ export default function ProductInfo({ product }: ProductInfoProps) {
   }
 
   const deliveryDate = new Date(Date.now() + 2 * 24 * 60 * 60 * 1000)
-    .toLocaleDateString('en-AE', {
+    .toLocaleDateString('en-NZ', {
       weekday: 'long',
       day: 'numeric',
       month: 'short',
@@ -268,7 +268,7 @@ export default function ProductInfo({ product }: ProductInfoProps) {
           <strong className="text-forest">
             next working day, {deliveryDate}
           </strong>{' '}
-          within the UAE
+          within New Zealand
         </p>
         <CountdownTimer targetHour={20} />
         <p className="font-body text-[11px] text-ink-mute">

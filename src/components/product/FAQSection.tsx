@@ -5,12 +5,12 @@ const faqs = [
   {
     question: 'What is the refund policy?',
     answer:
-      'We accept returns within 7 days of delivery if the product is unused, sealed, and in its original packaging. Contact us at info@perfumeplugx.com to initiate a return.',
+      'We accept returns within 7 days of delivery if the product is unused, sealed, and in its original packaging. Contact us at perfumeplugx@gmail.com to initiate a return.',
   },
   {
     question: 'How long does it take until I get my order?',
     answer:
-      'Orders are dispatched within 1–2 business days. Delivery takes 2–4 business days within the UAE. Express delivery options are available at checkout.',
+      'Orders are dispatched within 1–2 business days. Delivery takes 2–4 business days within New Zealand. Express delivery options are available at checkout.',
   },
   {
     question: 'Do we ship internationally?',

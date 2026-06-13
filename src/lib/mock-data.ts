@@ -142,7 +142,7 @@ const makeProduct = (args: MakeArgs): Product => {
       'A luminous fragrance that opens with sparkling citrus and spice before settling into a rich oud heart, balanced by creamy base notes that linger long on the skin. Each composition is hand-blended by our master perfumer in small batches.',
     price,
     compareAtPrice: args.compareAtPrice,
-    currency: 'AED',
+    currency: 'NZD',
     images,
     variants,
     category: findCategory(args.category ?? 'oud'),

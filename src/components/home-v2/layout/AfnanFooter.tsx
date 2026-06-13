@@ -82,7 +82,7 @@ export default function AfnanFooter() {
                 Perfumeplugx
               </span>
               <p className="font-body text-[11px] tracking-widest uppercase text-white/60 mt-1">
-                Perfumes — UAE
+                Perfumes — Auckland, NZ
               </p>
             </Link>
             <p className="font-body text-[13px] text-white/65 leading-relaxed max-w-xs">
@@ -110,7 +110,7 @@ export default function AfnanFooter() {
       <div className="border-t border-white/10">
         <div className="container-ar py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="font-body text-[11px] text-white/55 tracking-wide">
-            © {new Date().getFullYear()} Perfumeplugx — UAE. All rights reserved.
+            © {new Date().getFullYear()} Perfumeplugx — Auckland, New Zealand. All rights reserved.
           </p>
           <p className="font-body text-[11px] text-white/55 tracking-wide">
             Powered by Perfumeplugx Atelier

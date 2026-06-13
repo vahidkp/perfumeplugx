@@ -55,7 +55,7 @@ export default function AfnanNavbar() {
               {mobileOpen ? <X size={20} strokeWidth={1.5} /> : <Menu size={20} strokeWidth={1.5} />}
             </button>
             <span className="hidden sm:flex items-center gap-1.5 font-body text-[11px] tracking-widest uppercase text-ink-mute">
-              <Globe size={13} strokeWidth={1.5} /> UAE / AED
+              <Globe size={13} strokeWidth={1.5} /> NZ / NZD
             </span>
           </div>
 
