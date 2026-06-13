@@ -44,8 +44,8 @@ export default function HeroV2({ product, heroImage }: HeroV2Props) {
             The Signature Collection
           </p>
           <h1
-            className="font-display tracking-[0.08em] uppercase text-white leading-[0.95] whitespace-nowrap"
-            style={{ fontSize: 'clamp(40px, 6.5vw, 96px)' }}
+            className="font-display tracking-[0.04em] sm:tracking-[0.08em] uppercase text-white leading-[0.95] whitespace-nowrap"
+            style={{ fontSize: 'clamp(34px, 7vw, 96px)' }}
           >
             PERFUMEPLUGX
           </h1>

@@ -7,7 +7,7 @@ import { heroImages } from '@/lib/images'
 
 export default function HeroSection() {
   return (
-    <section className="relative bg-forest text-cream overflow-hidden">
+    <section className="relative min-h-screen flex flex-col bg-forest text-cream overflow-hidden">
       {/* Background image */}
       <div className="absolute inset-0">
         <Image
@@ -31,7 +31,7 @@ export default function HeroSection() {
         }}
       />
 
-      <div className="relative container-ar py-24 md:py-32 lg:py-40 flex flex-col items-center text-center">
+      <div className="relative flex-1 container-ar py-24 md:py-32 lg:py-40 flex flex-col items-center justify-center text-center">
         <motion.span
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
@@ -45,8 +45,8 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.25, duration: 0.7, ease: 'easeOut' }}
-          className="font-display font-light text-cream leading-[1.1] tracking-[0.18em]"
-          style={{ fontSize: 'clamp(48px, 8vw, 110px)' }}
+          className="font-display font-light text-cream leading-[1.1] tracking-[0.05em] sm:tracking-[0.18em]"
+          style={{ fontSize: 'clamp(36px, 9vw, 110px)' }}
         >
           PERFUMEPLUGX
         </motion.h1>
